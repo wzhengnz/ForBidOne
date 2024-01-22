@@ -1,0 +1,14 @@
+<h1 id="tableLabel"> Homework for BidOne </h1>
+<h2 id="tableLabel"> Submit a Person into Servers </h2>
+
+<form>
+  <div>
+    <label> First Name </label>
+    <input type="text" name="firstName" placeholder="Input First Name" [(ngModel)]="firstName" />
+  </div>
+  <div>
+    <label> Last Name </label>
+    <input type="text" name="lastName" placeholder="Input Last Name" [(ngModel)]="lastName" />
+  </div>
+  <button class="button" type="submit" (click)="submit()">Submit</button>
+</form>
